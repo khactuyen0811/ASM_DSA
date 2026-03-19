@@ -1,3 +1,5 @@
+package dsa;
+
 class LinkedQueue {
     private class Node {
         int data;

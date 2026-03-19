@@ -24,10 +24,10 @@ public class Student {
 
     // Xếp loại dựa trên marks
     public String getRank() {
-        if (marks < 5.0) return "Fail";
-        else if (marks < 6.5) return "Medium";
-        else if (marks < 7.5) return "Good";
-        else if (marks < 9.0) return "Very Good";
+        if (marks < 50) return "Fail";
+        else if (marks < 65) return "Medium";
+        else if (marks < 75) return "Good";
+        else if (marks < 90) return "Very Good";
         else return "Excellent";
     }
 
